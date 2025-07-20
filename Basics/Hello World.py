@@ -1,11 +1,8 @@
 print("Hello world!")
+X : str
+Y : str
 
-def say_hi():
-    print("Hi")
+X = "Hello"
+Y = "World"
 
-say_hi()
-
-def Add(a, b):
-    return a + b
-
-print(Add(1,2))
+print(X+ " "+Y)
