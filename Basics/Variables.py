@@ -1,8 +1,9 @@
-print("Hello world!")
-X : str
-Y : str
+# print("Hello world!")
+# X : str
+# Y : str
 
-X = "Hello"
-Y = "World"
+# X = "Hello"
+# Y = "World"
 
-print(X+ " "+Y)
+# print(X+ " "+Y)
+
