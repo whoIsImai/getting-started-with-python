@@ -11,3 +11,5 @@ num1 : int
 num2 : int
 num3 : int = num1 + num2
 
+print(num3)
+
