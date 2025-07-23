@@ -17,6 +17,11 @@ print(num3)
 
 name : str
 surname : str
+name = "John"
+surname = "Doe"
+
+full_name= f"{name} {surname}"
+print(full_name)
 
 
 
