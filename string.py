@@ -10,3 +10,4 @@ paragraph = "This is a sample paragraph that will be used to demonstrate string 
 # else:
 #     print("Python is not present in the paragraph.")
 
+#print(paragraph.split(",")) #this will split the paragraph into a list of sentences based on commas
