@@ -2,3 +2,5 @@ paragraph = "This is a sample paragraph that will be used to demonstrate string 
 
 # for x in paragraph:
 #     print(x)
+
+len(paragraph)
