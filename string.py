@@ -11,3 +11,8 @@ paragraph = "This is a sample paragraph that will be used to demonstrate string 
 #     print("Python is not present in the paragraph.")
 
 #print(paragraph.split(",")) #this will split the paragraph into a list of sentences based on commas
+
+count: int
+
+count = paragraph.count("Python")
+print(f"The word 'Python' appears {count} times in the paragraph.")
