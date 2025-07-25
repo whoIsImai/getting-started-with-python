@@ -1,14 +1,14 @@
 List
     - mylist = ["apple", "banana", "cherry"]
-    - ordered, changeable, and allow duplicate values.
+    - ordered, changeable, and allow duplicate values, indexed.
 
 Tuple
     - mytuple = ("apple", "banana", "cherry")
-    - ordered, unchangeable, and allow duplicate values. (cannot change, add or remove items after the tuple has been created)
+    - ordered, unchangeable, and allow duplicate values, indexed. (cannot change, add or remove items after the tuple has been created)
 
 Set
     - myset = {"apple", "banana", "cherry"}
-    - unordered, unchangeable, and do not allow duplicate values. (unchangeable, but you can remove items and add new items)
+    - unordered, unchangeable, and do not allow duplicate values, not indexed. (unchangeable, but you can remove items and add new items)
 
 Dictionary
     - thisdict = {"brand": "Ford", "model": "Mustang", "year": 1964}
