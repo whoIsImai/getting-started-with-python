@@ -18,7 +18,7 @@ my_list = ["apple", "banana", "cherry", "mango", "orange", "grape", "kiwi", "pea
 # for i in range(len(my_list)):
 #     print(f"at index {i} = {my_list[i]}")  # Printing each fruit in the list
 
-i = 0
-while i < len(my_list):
-    print(f"at index {i} = {my_list[i]}")
-    i += 1 
+# i = 0
+# while i < len(my_list):
+#     print(f"at index {i} = {my_list[i]}")
+#     i += 1 
