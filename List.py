@@ -7,4 +7,7 @@ my_list = ["apple", "banana", "cherry", "mango", "orange", "grape", "kiwi", "pea
 # print(my_list[last_index])
 
 # my_list.append("peach")  # Adding a new fruit to the list
-# print(my_list)  # Output: ['apple', 'banana', 'cherry', 'mango', 'orange', 'grape', 'kiwi', 'pear', 'peach']
+# print(my_list)
+
+my_list.insert(2, "blueberry")  # Inserting 'blueberry' at index 2
+print(my_list) 
