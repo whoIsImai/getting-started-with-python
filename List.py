@@ -9,5 +9,8 @@ my_list = ["apple", "banana", "cherry", "mango", "orange", "grape", "kiwi", "pea
 # my_list.append("peach")  # Adding a new fruit to the list
 # print(my_list)
 
-my_list.insert(2, "blueberry")  # Inserting 'blueberry' at index 2
-print(my_list) 
+# my_list.insert(2, "blueberry")  # Inserting 'blueberry' at index 2
+# print(my_list) 
+
+my_list.remove("cherry")  # Removing 'cherry' from the list
+print(my_list)
