@@ -22,3 +22,6 @@ my_list = ["apple", "banana", "cherry", "mango", "orange", "grape", "kiwi", "pea
 # while i < len(my_list):
 #     print(f"at index {i} = {my_list[i]}")
 #     i += 1 
+
+# m = [fruit for fruit in my_list if fruit == "banana"]
+# print(m)
