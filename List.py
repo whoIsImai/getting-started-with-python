@@ -12,5 +12,13 @@ my_list = ["apple", "banana", "cherry", "mango", "orange", "grape", "kiwi", "pea
 # my_list.insert(2, "blueberry")  # Inserting 'blueberry' at index 2
 # print(my_list) 
 
-my_list.remove("cherry")  # Removing 'cherry' from the list
-print(my_list)
+# my_list.remove("cherry")  # Removing 'cherry' from the list
+# print(my_list)
+
+# for i in range(len(my_list)):
+#     print(f"at index {i} = {my_list[i]}")  # Printing each fruit in the list
+
+i = 0
+while i < len(my_list):
+    print(f"at index {i} = {my_list[i]}")
+    i += 1 
