@@ -4,3 +4,9 @@ my_tuple = ("apple", "banana", "cherry", "mango", "orange", "grape", "kiwi", "pe
 
 for index in range(len(my_tuple)):
     print(my_tuple[index])
+
+i = 0
+while i < len(my_tuple):
+    print(f"index:{i}-{my_tuple[i]}")
+    i+=1
+    
