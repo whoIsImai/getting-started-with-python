@@ -2,5 +2,5 @@ my_tuple = ("apple", "banana", "cherry", "mango", "orange", "grape", "kiwi", "pe
 
 #print(my_tuple)
 
-for fruit in range(len(my_tuple)):
-    print(fruit)
+for index in range(len(my_tuple)):
+    print(my_tuple[index])
