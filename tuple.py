@@ -1,4 +1,4 @@
-my_tuple = ("apple", "banana", "cherry", "mango", "orange", "grape", "kiwi", "pear")
+my_tuple = ("banana","apple", "cherry", "mango", "orange", "grape", "kiwi", "pear")
 
 #print(my_tuple)
 
