@@ -1,0 +1,1 @@
+my_set = {"apple", "banana", "cherry", "mango", "orange", "grape", "kiwi", "pear"}
