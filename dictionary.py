@@ -19,5 +19,7 @@ my_dic = {
 # for x in my_dic:
 #     print(f"{x} : {my_dic[x]}")
 
-for x, y in my_dic.items():
-    print(f"{x} : {y}")
+# for x, y in my_dic.items():
+#     print(f"{x} : {y}")
+
+####### nested dictionary #######
