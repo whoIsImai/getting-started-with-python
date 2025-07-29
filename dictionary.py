@@ -3,3 +3,5 @@ my_dic = {
     "age": 30,
     "city": "Randburg",
 }
+name = my_dic["name"]
+print(f"Name: {name}")
