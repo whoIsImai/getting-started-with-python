@@ -6,6 +6,9 @@ my_dic = {
 # name = my_dic["name"]
 # print(f"Name: {name}")
 
-keys = my_dic.keys()
-values = my_dic.values()
-print(f"Keys: {keys}- Values: {values}")
+# keys = my_dic.keys()
+# values = my_dic.values()
+# print(f"Keys: {keys}- Values: {values}")
+
+items = my_dic.items()
+print(f"Items: {items}")
