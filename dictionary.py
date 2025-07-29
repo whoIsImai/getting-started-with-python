@@ -11,4 +11,7 @@ my_dic = {
 # print(f"Keys: {keys}- Values: {values}")
 
 items = my_dic.items()
-print(f"Items: {items}")
+print(f"{items}")
+
+my_dic["country"] = "South Africa"
+print(f"{my_dic}")
