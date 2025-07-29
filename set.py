@@ -1,4 +1,7 @@
-my_set = {"apple", "banana", "cherry", "mango", "orange", "grape", "kiwi", "pear"}
+my_set = {"apple", "banana", "cherry", "pear"}
 
-# for x in my_set:
-#     print(x)
+print(my_set)
+my_set.add("kiwi")
+print(my_set)
+my_set.remove("banana")
+print(my_set)
