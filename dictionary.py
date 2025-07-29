@@ -10,8 +10,11 @@ my_dic = {
 # values = my_dic.values()
 # print(f"Keys: {keys}- Values: {values}")
 
-items = my_dic.items()
-print(f"{items}")
+# items = my_dic.items()
+# print(f"{items}")
 
-my_dic["country"] = "South Africa"
-print(f"{my_dic}")
+# my_dic["country"] = "South Africa"
+# print(f"{my_dic}")
+
+for x in my_dic:
+    print(f"{x} : {my_dic[x]}")
