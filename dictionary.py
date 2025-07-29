@@ -16,5 +16,8 @@ my_dic = {
 # my_dic["country"] = "South Africa"
 # print(f"{my_dic}")
 
-for x in my_dic:
-    print(f"{x} : {my_dic[x]}")
+# for x in my_dic:
+#     print(f"{x} : {my_dic[x]}")
+
+for x, y in my_dic.items():
+    print(f"{x} : {y}")
