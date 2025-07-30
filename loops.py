@@ -7,3 +7,10 @@
 #         continue
 # else:
 #     print("Loop completed without break")
+
+list_1 = [1, 2, 3, 4, 5]
+list_2 = [6, 7, 8, 9, 10]
+
+for i in range(len(list_1)):
+    for j in range(len(list_2)):
+        print(f"Pair: {list_1[i]}, {list_2[j]}")
