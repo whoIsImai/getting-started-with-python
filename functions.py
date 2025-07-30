@@ -8,7 +8,7 @@
 
 # add_numbers(2,10)
 
-def User(*user) -> str:
+def User(**user) -> str:
     return print(f"name: {user["name"]}, age: {user["age"]}, country: {user["country"]}")
 
 User(name="John Doe", age=30, country="USA")
