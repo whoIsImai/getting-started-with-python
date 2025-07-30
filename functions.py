@@ -7,3 +7,8 @@ def add_numbers(num1: int, num2: int) -> int:
     return print(num1 + num2)
 
 add_numbers(2,10)
+
+def User(*user) -> str:
+    return print(f"name: {user["name"]}, age: {user["age"]}, country: {user["country"]}")
+
+User(name="John Doe", age=30, country="USA")
