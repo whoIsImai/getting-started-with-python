@@ -20,7 +20,8 @@ class Person:
         return f"Hello, i'm {self.name} and I am {self.age}."
     
 class Student(Person):
-    pass
+    def __init__(self, name, age):
+        super().__init__(name, age)
 
 WhoIsImai = Student("Imai", 20).greet()
 print(WhoIsImai)
