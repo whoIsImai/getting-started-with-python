@@ -9,5 +9,5 @@ class person:
         return f"Hello, my name is {self.name} and I am {self.age} years old."
     
 p1 = person("John", 30)
-print(p1)
+print(p1.greet())
         
