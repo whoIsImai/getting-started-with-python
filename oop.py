@@ -11,3 +11,17 @@
 # p1 = person("John", 30)
 # print(p1.greet())
         
+class Person:
+    def __init__(self, name,age):
+        self.name = name
+        self.age = age
+
+    def greet(self):
+        return f"Hello, i'm {self.name} and I am {self.age}."
+    
+class Student(Person):
+    pass
+
+WhoIsImai = Student("Imai", 20).greet()
+print(WhoIsImai)
+        
