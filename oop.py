@@ -20,9 +20,13 @@ class Person:
         return f"Hello, i'm {self.name} and I am {self.age}."
     
 class Student(Person):
-    def __init__(self, name, age):
+    def __init__(self, name, age, role):
         super().__init__(name, age)
+        self.role = role
 
-WhoIsImai = Student("Imai", 20).greet()
+    def greet(self):
+        return f"Hello, I'm {self.name}, I am {self.age} years old and I am a {self.role}."
+
+WhoIsImai = Student("Imai", 20, "Student").greet()
 print(WhoIsImai)
         
