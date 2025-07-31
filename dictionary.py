@@ -43,5 +43,6 @@ people = {
 
 for key, value in people.items():
     print(f"{key}:")
-    for key, value in value.items():
-        print(f"{key}: {value}")
+    if key == "jane":
+        for key, value in value.items():
+            print(f"{key}: {value}")
