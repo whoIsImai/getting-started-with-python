@@ -26,3 +26,7 @@ class Boat(Vehicle):
 car = Car(2020, "red", "Toyota", "Corolla")
 plane = Plane("Boeing 747", 2015, "white")
 boat = Boat("Yacht", 2018, "blue")
+
+print(car.move())
+print(plane.move())
+print(boat.move())
