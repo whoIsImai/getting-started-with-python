@@ -12,3 +12,6 @@
 #     return print(f"name: {user["name"]}, age: {user["age"]}, country: {user["country"]}")
 
 # User(name="John Doe", age=30, country="USA")
+
+add_numbers = lambda num1, num2: num1 + num2
+print(add_numbers(5, 15))
