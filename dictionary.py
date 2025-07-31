@@ -1,8 +1,8 @@
-my_dic = {
-    "name": "John Doe",
-    "age": 30,
-    "city": "Randburg",
-}
+# my_dic = {
+#     "name": "John Doe",
+#     "age": 30,
+#     "city": "Randburg",
+# }
 # name = my_dic["name"]
 # print(f"Name: {name}")
 
@@ -23,3 +23,25 @@ my_dic = {
 #     print(f"{x} : {y}")
 
 ####### nested dictionary #######
+
+john = {
+    "name": "John Doe",
+    "age": 30,
+    "city": "Randburg",
+}
+
+jane = {
+    "name": "Jane Doe",
+    "age": 28,
+    "city": "Sandton",
+}
+
+people = {
+    "john": john,
+    "jane": jane,
+}
+
+for person, more in people:
+    print(person)
+    for key, value in more.item():
+        print(f"{key}: {value}")
