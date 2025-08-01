@@ -23,13 +23,15 @@
 # full_name= f"{name} {surname}"
 # print(full_name)
 
-import datetime
+# import datetime
 
-current_date = datetime.datetime.now()
-print(current_date)
+# current_date = datetime.datetime.now()
+# print(current_date)
 
-print(current_date.year)
-print(current_date.strftime("%A"))
+# print(current_date.year)
+# print(current_date.strftime("%A"))
 
 
+x = abs(-7.25)
 
+print(x)
