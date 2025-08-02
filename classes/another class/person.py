@@ -21,4 +21,4 @@ class Person():
                 sub.append(sub2)
                 ans = input("Do you want to add another subject? (yes/no): ")
                 if ans.lower() == 'no':
-                  return print(f"{self.name} is studying {sub1} and {sub}")
+                  return print(f"{self.name} = {sub1} and {sub}")
