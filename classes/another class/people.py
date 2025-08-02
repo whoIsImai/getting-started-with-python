@@ -23,3 +23,4 @@ print("#########################################################")
 
 teacher1.Intro()
 teacher1.getCourse()
+teacher1.subjects()
