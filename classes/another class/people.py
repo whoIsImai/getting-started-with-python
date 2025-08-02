@@ -18,3 +18,8 @@ teacher1 = teacher("Cos", 40,"Teacher")
 
 student1.Intro()
 student1.getCourse()
+
+print("#########################################################")
+
+teacher1.Intro()
+teacher1.getCourse()
