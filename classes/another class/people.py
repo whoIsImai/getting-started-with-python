@@ -8,6 +8,10 @@ class teacher(Person):
     def __init__(self, name, age, role):
         super().__init__(name,age,role)
 
+    def getCourse(self):
+        course = input("Enter the course you're teachin: ")
+        return print(f"{self.name} is teaching {course}")
+
 student1 = student("Imai", 21, "Student")
 
 teacher1 = teacher("Cos", 40,"Teacher")
