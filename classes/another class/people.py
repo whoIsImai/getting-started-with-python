@@ -18,7 +18,7 @@ teacher1 = teacher("Cos", 40,"Teacher")
 
 student1.Intro()
 student1.getCourse()
-
+student1.subjects()
 print("#########################################################")
 
 teacher1.Intro()
