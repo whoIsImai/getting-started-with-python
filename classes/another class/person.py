@@ -10,3 +10,15 @@ class Person():
     def getCourse(self):
         course = input("Enter your course: ")
         return print(f"{self.name} is doin {course}")
+    
+    def subjects(self):
+        sub = []
+        sub1 = input("Enter your first subject: ")
+        sub.append(sub1)
+        ans = input("Do you want to add another subject? (yes/no): ")
+        while ans.lower() == 'yes':
+                sub2 = input("Enter your next subject: ")
+                sub.append(sub2)
+                ans = input("Do you want to add another subject? (yes/no): ")
+                if ans.lower() == 'no':
+                  return print(f"{self.name} is studying {sub1} and {sub}")
