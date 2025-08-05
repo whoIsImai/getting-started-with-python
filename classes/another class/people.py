@@ -18,18 +18,18 @@ teacher1 = teacher("Cos", 40,"Teacher")
 
 
 
-try:
-    student1.Intro()
-    student1.getCourse()
-    student1.subjects()
-    print("#########################################################")
+# try:
+#     student1.Intro()
+#     student1.getCourse()
+#     student1.subjects()
+#     print("#########################################################")
 
-    teacher1.Intro()
-    teacher1.getCourse()
-    teacher1.subjects()
-except Exception as e:
-    print(f"An error occurred: {e}")
-else:
-    print("No errors occurred.")
-finally:
-    print("Execution completed.")
+#     teacher1.Intro()
+#     teacher1.getCourse()
+#     teacher1.subjects()
+# except Exception as e:
+#     print(f"An error occurred: {e}")
+# else:
+#     print("No errors occurred.")
+# finally:
+#     print("Execution completed.")
