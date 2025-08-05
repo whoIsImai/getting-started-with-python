@@ -16,17 +16,17 @@ student1 = student("Imai", 21, "Student")
 
 teacher1 = teacher("Cos", 40,"Teacher")
 
-# student1.Intro()
-# student1.getCourse()
-# student1.subjects()
-# print("#########################################################")
 
-# teacher1.Intro()
-# teacher1.getCourse()
-# teacher1.subjects()
 
 try:
-    print("x")
+    student1.Intro()
+    student1.getCourse()
+    student1.subjects()
+    print("#########################################################")
+
+    teacher1.Intro()
+    teacher1.getCourse()
+    teacher1.subjects()
 except Exception as e:
     print(f"An error occurred: {e}")
 else:
