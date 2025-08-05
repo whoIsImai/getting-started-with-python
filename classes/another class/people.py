@@ -33,3 +33,7 @@ teacher1 = teacher("Cos", 40,"Teacher")
 #     print("No errors occurred.")
 # finally:
 #     print("Execution completed.")
+
+x = -1
+if x < 0:
+    raise Exception("negative values not allowed")
