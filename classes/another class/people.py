@@ -26,7 +26,7 @@ teacher1 = teacher("Cos", 40,"Teacher")
 # teacher1.subjects()
 
 try:
-    print(x)
+    print("x")
 except Exception as e:
     print(f"An error occurred: {e}")
 else:
