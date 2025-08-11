@@ -5,4 +5,5 @@ data_set = {
     "year" : [2020, 2021, 2022, 2023],
     "price" : [20000, 22000, 25000, 270]
 }
-
+df = pd.DataFrame(data_set)
+print(df)
