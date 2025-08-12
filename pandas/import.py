@@ -14,3 +14,5 @@ import pandas as pd
 # print(df)
 # print("### DataFrame with index ###")
 # print(df.loc["1st":"2nd", ["cars", "year"]])
+
+df = pd.read_csv("data.csv")
