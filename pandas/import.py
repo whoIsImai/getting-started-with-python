@@ -5,7 +5,7 @@ data_set = {
     "year" : [2020, 2021, 2022, 2023],
     "price" : [20000, 22000, 25000, 270]
 }
-df = pd.DataFrame(data_set)
+df = pd.DataFrame(data_set, index = ["1st", "2nd", "3rd", "4th"])
 # series = pd.Series(data_set)
 
 # print("### series ###")
@@ -13,4 +13,4 @@ df = pd.DataFrame(data_set)
 print("### DataFrame ###")
 print(df)
 print("### DataFrame with index ###")
-print(df.loc[0:2])
+print(df.loc["1st":"3rd", ["cars", "year"]])
