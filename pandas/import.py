@@ -15,4 +15,4 @@ import pandas as pd
 # print("### DataFrame with index ###")
 # print(df.loc["1st":"2nd", ["cars", "year"]])
 
-df = pd.read_csv("data.csv")
+data_set = pd.read_csv("data.csv")
