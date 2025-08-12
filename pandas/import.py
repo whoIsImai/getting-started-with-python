@@ -8,5 +8,7 @@ data_set = {
 df = pd.DataFrame(data_set)
 series = pd.Series(data_set)
 
-
+print("### series ###")
 print(series)
+print("### DataFrame ###")
+print(df)
