@@ -6,4 +6,5 @@ data_set = {
     "price" : [20000, 22000, 25000, 270]
 }
 df = pd.DataFrame(data_set)
-print(df)
+series = pd.Series(data_set)
+print(series)
