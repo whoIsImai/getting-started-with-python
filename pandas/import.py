@@ -15,5 +15,5 @@ import pandas as pd
 # print("### DataFrame with index ###")
 # print(df.loc["1st":"2nd", ["cars", "year"]])
 
-data_set = pd.read_csv("data.csv").to_string()
+data_set = pd.read_csv("data.csv")
 print(data_set)
