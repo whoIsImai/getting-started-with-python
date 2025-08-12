@@ -6,9 +6,9 @@ data_set = {
     "price" : [20000, 22000, 25000, 270]
 }
 df = pd.DataFrame(data_set)
-series = pd.Series(data_set)
+# series = pd.Series(data_set)
 
-print("### series ###")
-print(series)
-print("### DataFrame ###")
+# print("### series ###")
+# print(series)
+# print("### DataFrame ###")
 print(df)
