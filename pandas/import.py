@@ -16,4 +16,5 @@ import pandas as pd
 # print(df.loc["1st":"2nd", ["cars", "year"]])
 
 data_set = pd.read_csv("data.csv")
-print(data_set)
+#print(data_set)
+print(pd.options.display.max_columns)
