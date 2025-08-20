@@ -18,5 +18,6 @@ import pandas as pd
 data_set = pd.read_csv("data.csv")
 #print(data_set)
 pd.options.display.max_rows = 500
-#print(data_set.head(5))
+print(data_set.head(5))
+print(data_set.tail(5))
 print(data_set.info())
