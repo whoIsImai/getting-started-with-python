@@ -6,4 +6,4 @@ df = pd.read_csv("data.csv")
 
 # print(new_df.to_string())
 
-new_df = df.fillna(111, inplace = True)
+new_df = df.fillna({"Calories": 130}, inplace = True)
