@@ -7,4 +7,3 @@ df = pd.read_csv("data.csv")
 # print(new_df.to_string())
 
 new_df = df.fillna(111, inplace = True)
-print(new_df.to_string())
