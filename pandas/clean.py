@@ -11,3 +11,4 @@ df = pd.read_csv("data.csv")
 v = df["Calories"].mean()
 
 df.fillna({"Calories": v}, inplace=True)
+print(df)
