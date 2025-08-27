@@ -8,7 +8,13 @@ df = pd.read_csv("pandas/data.csv")
 
 # new_df = df.fillna({"Calories": 130}, inplace = True)
 
-v = df["Calories"].mean()
+# v = df["Calories"].mean()
 
-df.fillna({"Calories": v}, inplace=True)
+# df.fillna({"Calories": v}, inplace=True)
+# print(df.to_string())
+
+for x in df.index:
+    if df.loc[x, "Duration"] > 210:
+        df.loc[x, "Duration"] = 120
+
 print(df.to_string())
