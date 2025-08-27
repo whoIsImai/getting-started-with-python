@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv("data.csv")
+df = pd.read_csv("pandas/data.csv")
 
 # # new_df = df.dropna(inplace = True)
 
@@ -11,4 +11,4 @@ df = pd.read_csv("data.csv")
 v = df["Calories"].mean()
 
 df.fillna({"Calories": v}, inplace=True)
-print(df)
+print(df.to_string())
