@@ -15,6 +15,6 @@ df = pd.read_csv("pandas/data.csv")
 
 for x in df.index:
     if df.loc[x, "Duration"] > 210:
-        df.loc[x, "Duration"] = 120
+       df.drop(x, inplace=True)
 
 print(df.to_string())
